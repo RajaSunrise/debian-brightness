@@ -1,1 +1,58 @@
-/.git
+# Ignore folder .git
+.git
+
+# Ignore file yang dibuat oleh sistem operasi
+.DS_Store
+Thumbs.db
+
+# Ignore file konfigurasi
+*.log
+*.ini
+
+# Ignore file yang dibuat oleh editor atau IDE tertentu
+.vscode/
+.idea/
+
+# Ignore file hasil kompilasi atau build
+/bin/
+/build/
+/dist/
+
+# Ignore file sementara atau cache
+*.swp
+*.swo
+*.swn
+*.swm
+*.pyc
+__pycache__/
+*.class
+
+# Ignore file yang berisi kredensial atau informasi rahasia
+.env
+.secret
+
+# Ignore file konfigurasi lokal
+*.local
+
+# Ignore file sementara
+*.tmp
+
+# Ignore file yang dihasilkan oleh testing
+/test-results/
+
+# Ignore file yang dihasilkan oleh dokumentasi
+/doc/
+/docgen/
+
+# Ignore file yang dihasilkan oleh dependency management
+/node_modules/
+/bower_components/
+/vendor/
+
+# Ignore file konfigurasi proyek
+.project
+
+# Ignore file yang dapat dihasilkan oleh sistem operasi
+ehthumbs.db
+Icon?
+Desktop.ini
